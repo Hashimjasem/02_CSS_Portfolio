@@ -1,0 +1,82 @@
+*{
+    font-family: monospace;
+    padding: 10px
+}
+
+body{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+.header{
+    background-color: aquamarine;
+}
+
+#portrait{
+    max-width: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+h1{
+    position: relative;
+    left: 230px; 
+    bottom: 135px;
+}
+h4{
+    position: relative;
+    left: 230px; 
+    bottom: 135px;
+}
+
+#navig{
+    position: fixed;
+    margin-left: 1360px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+#abtme{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+#mywork{
+    background-color: aquamarine;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+#contacts{
+    background-color: aquamarine;
+    max-width: 1200px;
+    float: none;
+}
