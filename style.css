@@ -7,10 +7,13 @@
 }
 
 body{
-    background-color: rgb(185, 185, 193);
+    background-color: beige;
 }
 
+main {
+    margin-left: 200px
 
+}
 
 
 
@@ -20,6 +23,8 @@ body{
 .header{
     background-color: rgb(255, 149, 68);
     max-height: 150px;
+    border-radius: 22px;
+    margin-bottom: 15px;
 }
 #portrait{
     max-width: 200px;
@@ -42,8 +47,10 @@ h4{
 
 #navig{
     position: fixed; 
-    background-color: beige;
-    margin-left: 2000px;
+    background-color: tan;
+    margin-block-end: 300px;
+    border-radius: 22px;
+   
     
 }
 
@@ -61,6 +68,7 @@ ul {
 
 #abtme{
     background-color: rgb(70, 167, 228);
+    border-radius: 22px;
 }
 
 h2 {
@@ -70,29 +78,46 @@ h2 {
 }
 
 
-#pic1 {
-    width: 170px;
-}
-
-#pic2 {
-    max-width: 170px;
-}
-
-#pic3 {
-    max-width: 170px;
-}
-
 
 
 
 #mywork{
     background-color: aquamarine;
     margin-top: 50px;
+    border-radius: 22px;
+    margin-bottom: 50px;
 }
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+    grid-gap: 15px;
+    height: 500px
+}
 
+.grid-item{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
 
+.grid-item-1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.grid-item-2{
+    grid-column: 1 /2;
+    grid-row: 2 / 3;
+}
+
+.grid-item-3{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
 
 
 
@@ -100,5 +125,19 @@ h2 {
 #contacts{
     background-color: rgb(255, 44, 220);
     max-width: 1200px;
-    float: none;
+    border-radius: 22px;
+    max-height: min-content;
 }
+
+.contact-imgs {
+    max-width: 50px;
+    position
+}
+
+.footer{
+    text-align: center;
+}
+
+    #git {
+        list-style
+    }
