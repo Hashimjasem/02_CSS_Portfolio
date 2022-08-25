@@ -11,7 +11,7 @@ body{
 }
 
 main {
-    margin-left: 200px
+
 
 }
 
@@ -24,7 +24,7 @@ main {
     background-color: rgb(255, 149, 68);
     max-height: 150px;
     border-radius: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 #portrait{
     max-width: 200px;
@@ -38,26 +38,40 @@ h1{
     position: relative;
     left: 230px; 
     bottom: 210px;
+    width: fit-content;
 }
 h4{
     position: relative;
     left: 230px; 
     bottom: 260px;
+    width: fit-content;
+}
+
+main{
+    display: flex ;
+    padding: 0px;
 }
 
 #navig{
-    position: fixed; 
+    height: 230px;
     background-color: tan;
-    margin-block-end: 300px;
     border-radius: 22px;
-   
-    
+    width: 200px;
+    position: sticky;
+    top: 0;
+}
+
+a{
+    padding: 0%;
 }
 
 ul {
     list-style: none;
 }
 
+#main-text{
+    padding: 0px;
+}
 
 
 
@@ -69,12 +83,15 @@ ul {
 #abtme{
     background-color: rgb(70, 167, 228);
     border-radius: 22px;
+    
 }
 
 h2 {
     position: relative;
     left: 50px;
     bottom: 25px;
+    width: fit-content;
+    margin-bottom: 0%;
 }
 
 
@@ -91,17 +108,18 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px;
-    border: 3px solid aquamarine;
+    grid-template-columns:  ;
+    grid-template-rows: 400px 400px;
     border-radius: 15px;
     grid-gap: 15px;
-    height: 500px
+    height: 800px
 }
 
 .grid-item{
     background-color: aliceblue;
     border-radius: 15px;
+    border: 7px solid rgb(40, 172, 128);
+    
 }
 
 .grid-item-1{
@@ -120,24 +138,39 @@ h2 {
 }
 
 
-
-
-#contacts{
-    background-color: rgb(255, 44, 220);
-    max-width: 1200px;
-    border-radius: 22px;
-    max-height: min-content;
-}
-
-.contact-imgs {
-    max-width: 50px;
-    position
-}
-
 .footer{
     text-align: center;
+}   
+
+.grid-item-1{
+    background-image: url(./calc.jpg);
+}
+.grid-item-2{
+    background-image: url(./snake.png);
+}
+.grid-item-3{
+    background-image: url(./psr.jfif);
 }
 
-    #git {
-        list-style
-    }
+#calc{
+    background-color: rgb(40, 172, 128);
+    width: min-content;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+}
+#psr{
+    background-color: rgb(40, 172, 128);
+    width: max-content;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    
+}
+#snake{
+    background-color: rgb(40, 172, 128);
+    width: min-content;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+}
